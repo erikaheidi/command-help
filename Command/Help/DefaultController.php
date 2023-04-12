@@ -1,6 +1,6 @@
 <?php
 
-namespace Librarian\Help;
+namespace librarianphp\Help;
 
 use Minicli\App;
 use Minicli\Command\CommandController;
