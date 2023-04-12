@@ -4,23 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7c65dc97dcfa4fd7c7586c1ba56409f",
+    "content-hash": "faf2f1c5dd36510f52aa5e1a854fe6b1",
     "packages": [
         {
             "name": "minicli/minicli",
-            "version": "3.0.2",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minicli/minicli.git",
-                "reference": "d0b8f64a13fd72dd5bc4e182482dbe9a0424f9cc"
+                "reference": "2d31b303461d0ec1f8c6d0be00f8b26be8766fbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minicli/minicli/zipball/d0b8f64a13fd72dd5bc4e182482dbe9a0424f9cc",
-                "reference": "d0b8f64a13fd72dd5bc4e182482dbe9a0424f9cc",
+                "url": "https://api.github.com/repos/minicli/minicli/zipball/2d31b303461d0ec1f8c6d0be00f8b26be8766fbe",
+                "reference": "2d31b303461d0ec1f8c6d0be00f8b26be8766fbe",
                 "shasum": ""
             },
             "require": {
+                "ext-readline": "*",
                 "php": ">=8"
             },
             "require-dev": {
@@ -28,13 +29,9 @@
                 "pestphp/pest": "^1.0",
                 "phpunit/phpunit": "^9.0"
             },
-            "suggest": {
-                "ext-readline": "For obtaining user input"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Assets\\": "tests/Assets",
                     "Minicli\\": "src/"
                 }
             },
@@ -50,7 +47,7 @@
             ],
             "support": {
                 "issues": "https://github.com/minicli/minicli/issues",
-                "source": "https://github.com/minicli/minicli/tree/3.0.2"
+                "source": "https://github.com/minicli/minicli/tree/3.2.1"
             },
             "funding": [
                 {
@@ -58,7 +55,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-31T17:20:54+00:00"
+            "time": "2022-09-23T09:04:22+00:00"
         }
     ],
     "packages-dev": [],

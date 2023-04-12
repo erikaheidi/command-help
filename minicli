@@ -17,7 +17,7 @@ $app = new App([
     'debug' => true
 ]);
 
-$app->setSignature('./minicli demo param1=value1 param2=value2');
+$app->setSignature('./minicli help');
 
 try {
     $app->runCommand($argv);

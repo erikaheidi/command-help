@@ -1,13 +1,13 @@
 {
-    "name": "minicli/command-demo",
+    "name": "librarianphp/command-demo",
     "type": "library",
-    "description": "A demo shareable command for Minicli",
+    "description": "Librarian's built-in help command",
     "license": "MIT",
-    "homepage": "https://github.com/minicli/command-demo",
-    "keywords": ["cli","command-line", "template"],
+    "homepage": "https://github.com/librarianphp/command-demo",
+    "keywords": ["cli","command-line", "markdown"],
     "autoload": {
         "psr-4": {
-            "Vendor\\": "Command/"
+            "Librarian\\": "Command/"
         }
     },
     "require": {
