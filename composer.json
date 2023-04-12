@@ -1,5 +1,5 @@
 {
-    "name": "librarianphp/command-demo",
+    "name": "librarianphp/command-help",
     "type": "library",
     "description": "Librarian's built-in help command",
     "license": "MIT",
