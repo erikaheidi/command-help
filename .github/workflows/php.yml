@@ -24,4 +24,4 @@ jobs:
       run: composer test
 
     - name: Run php-cs-fixer
-      run: composer csfix
+      run: composer csfix .
