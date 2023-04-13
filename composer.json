@@ -14,7 +14,8 @@
         "minicli/minicli": "^3.2"
     },
     "require-dev": {
-        "pestphp/pest": "^2.4"
+        "pestphp/pest": "^2.4",
+        "friendsofphp/php-cs-fixer": "^3.16"
     },
     "scripts": {
         "test" : ["pest"],
