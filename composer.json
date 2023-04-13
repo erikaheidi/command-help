@@ -11,6 +11,19 @@
         }
     },
     "require": {
-        "minicli/minicli": "^3.0"
+        "minicli/minicli": "^3.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.4"
+    },
+    "scripts": {
+        "test" : ["pest"],
+        "csfix": ["php-cs-fixer fix"]
+    },
+
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
