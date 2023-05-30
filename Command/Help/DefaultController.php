@@ -19,7 +19,7 @@ class DefaultController extends CommandController
 
     public function handle(): void
     {
-        $this->getPrinter()->info($this->app->getSignature());
+        $this->info($this->app->getSignature());
 
         $print_table[] = [ 'Namespace', 'Command' ];
 
@@ -41,6 +41,6 @@ class DefaultController extends CommandController
             }
         }
 
-        $this->getPrinter()->printTable($print_table);
+        $this->printTable($print_table);
     }
 }
