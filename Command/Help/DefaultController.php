@@ -3,6 +3,7 @@
 namespace librarianphp\Help;
 
 use Minicli\App;
+use Minicli\Command\CommandCall;
 use Minicli\Command\CommandController;
 use Minicli\Command\CommandRegistry;
 
@@ -11,9 +12,9 @@ class DefaultController extends CommandController
     /** @var  array */
     protected array $commandMap = [];
 
-    public function boot(App $app): void
+    public function boot(App $app, CommandCall $input): void
     {
-        parent::boot($app);
+        parent::boot($app, $input);
         $this->commandMap = $app->commandRegistry->getCommandMap();
     }
 
